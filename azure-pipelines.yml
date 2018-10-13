@@ -4,7 +4,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 trigger:
-  - master
+  - 00-start
 
 steps:
   - task: NodeTool@0
